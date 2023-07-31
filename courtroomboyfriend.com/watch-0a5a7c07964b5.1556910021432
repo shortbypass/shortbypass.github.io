@@ -1,0 +1,25 @@
+(function() {
+  var template = "\
+    frame_width=728;frame_height=90; <a id='atLink-ad04b3abffab21dda504cc99a05a456b' href='https://www.profitablegatetocontent.com/b2hzyw96hc?key=69bb4b3dafb140131e157207e9cb730b&psid=2' target='_blank'><img border='0' alt='' src='https://cdn.cloudimagesb.com/cti/b2/af/8a/b2af8ac2a38a3a519d5e4c5787c1d9cb/1663335057.png' width='728' height='90'></a><script type='text/javascript'>               (function() {                        var bn;                        if (bn = document.getElementById('atLink-ad04b3abffab21dda504cc99a05a456b')) {                                var callback = function () { (new Image()).src = '//courtroomboyfriend.com/clk.gif?landing_id=3673707&placement_id=15387041&sid=H4sIAAAAAAAC%2F1xTy4scxR%2Bvye%2FB70cgohcxIMwhhwSyk%2BpndeFB8jAPssElicRbrFfPlFP9oKp7erOnYEBynD%2Bh5zu7m2hiUDxHZCL4CAi7elmFvevBg%2F4DMrOro1bTfB71%2BcK3ur%2F1%2FqTeRxhqtqeuFRvaGHYm6uHuybc977Xuqs7r9e56Et%2BOw1Pds2Vp1C3Fr%2BrqTBSQXhB3T169fPPa6umu0UPVvaTEsDjVPT%2BwRabOeF7Yw%2FOne4OlzOrDEtDlE9%2F3e55PelHU8zwf1u0%2FHVcfA8f%2BA3K0j14CLXePXnjnOmgxgzz7%2BIJyw6ooT7%2BR1YZVhYWRfPBWPsyLJodsSVPbgTR%2FcJiGwu1c%2FAyKfGtxJihGfwa53kWdn24Dz7cPWgc%2BmnpeCNyAyoHLo9CMZqDMDDSbgSjugZY76DEICWuXIc8erQ200WWpc%2BUOImwe2UVHZp%2BCbg4wzz66ZAquujeVUaLIYD1tQa%2FPQPdnUNYzqDb%2BB7p5BqJ6D7T8Fh1%2F4XvIs61VNqj7oOXeiQTHNPKScEXygKyEEfZWaMr8FUKZTCRjJBHB4htpPQOdzsCoMTDXgXr%2B6g7UaQfqsgOZ3OsqQSMWKJ%2BERDDCQ0VTrAJKaCRVqmIPajE%2FwxiqcgzCjEHY%2Bw9LOaiGIz%2FYrGyttutcOJ9OggMSTMLNOQHv0CATsn1QsIj%2FUUz%2FpshCQWnvwlCPwdafgxvsPYySKIy9BCehJ0OOcZL6kcBJmLAQR5THgQg8EoceYTiRYSqiMCESC09FcSii1CdRRInCsZIp93yRMCqx4BGmLEyp8oM4CWlEA8JTJuKY%2BTGjAceKsDjBKsWCiJiSSGHfCwlmRMSEMo9JEuAA05T6XAYkoCIEJ3c6T8BVuwh99RuMZAuNQtA4BA1D0GgETYWgGbVb0jjftdvSuJp7h%2BgfYtBOi6o%2FYVtF1Vc5mpT76MXFAP389QSGaq%2FLJA55wHiaMu57UrIIh0JQynDEwijm4HQL2h1Z%2FO6N%2BTz%2FiKCc443jwNkzcOYZCH0CWP0ysGZK%2FATYACiGjfxxJuydsip6wtQcZNFCWf0bqjudidlHryzaSI4NQYnn6HCBsC2UtoV39RcI%2Bub%2B9HrRoM3rRePQJ2%2BWlc70Bqt0kd%2BoWKX%2B%2B%2BFVdacprLxywY0%2FOCvmG3P6%2BKZy1SrLpc77Dj06p6VU9mJhhUJPr7hbiq%2FVbnCutnldrq6dv3glK61yThf5DJjeUd%2BA0Lvo%2F7%2F8uri%2Fr05%2FAG1nYOsWsnrZqS5mIMq74Mql5woE1iw1LxE0dTu1Pl%2BaRiMwaqkZb8H9RfMln7j70LcdYNU9yLMWRraFkWmBmTG4%2Bl%2FTqrTPX%2F8uWCzgpjPlxqJNbux8X%2B91PRYTGvsh8VLfx4qmJMIpZgn2meBKYKjcrvzyqfwdAAD%2F%2FwEAAP%2F%2FdfHHRqoFAAA%3D&psid=';};                                if (bn.addEventListener) bn.addEventListener('click', callback, false);                                else if (bn.attachEvent) bn.attachEvent('onclick', callback);                                else bn.onclick = callback;                        }                })();</script> \
+  ";
+  if (typeof atAsyncContainers === 'object' && atAsyncContainers['ad04b3abffab21dda504cc99a05a456b']) {
+    var container, scripts;
+    if (container = document.getElementById(atAsyncContainers['ad04b3abffab21dda504cc99a05a456b'])) {
+      container.innerHTML = template;
+      scripts = container.getElementsByTagName('script');
+      for (var i = 0; i < scripts.length; i++) {
+        if (!!scripts[i].src) {
+          (function(raw) {
+            var script = document.createElement('script');
+            for (var j = 0, length = raw.attributes.length; j < length; j++) {
+              script[raw.attributes[j]['name']] = raw.attributes[j]['value'];
+            }
+            raw.parentNode.replaceChild(script, raw);
+          })(scripts[i]);
+        } else {
+          eval(scripts[i].innerHTML);
+        }
+      }
+    }
+  }
+})();
